@@ -231,11 +231,12 @@
                             
                             .container .wraper-holder {
                                 display: grid;
-                                grid-template-columns: repeat(3, 100%);
+                                /* grid-template-columns: repeat(3, 100%); */
+                                grid-template-columns: repeat(3, auto);
                                 /* height: 100%; */
                                 /* width: 250%; */
                                 transition: 500ms;
-                                overflow: scroll;
+                                /* overflow: scroll; */
                                 gap: 20px;
                                 /* animation: slider 15s ease-in-out infinite; */
                             }
